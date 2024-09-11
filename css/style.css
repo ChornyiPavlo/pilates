@@ -311,9 +311,9 @@ footer {
 
 .navbar h1 {
   white-space: nowrap;
-  color: #111;
+  color: #fff;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 32px;
   margin-bottom: 0;
 }
 .navbar ul li {
@@ -331,9 +331,11 @@ footer {
   padding: 0;
   margin-right: 0;
 }
-
+.h-100px {
+  height: 100px;
+}
 .navbar .navbar-nav a {
-  color: #111;
+  color: #fff;
 }
 .navbar-brand img {
   width: 60px;
@@ -354,7 +356,7 @@ footer {
 .navbar-toggler .toggler-icon {
   width: 30px;
   height: 2px;
-  background-color: #111;
+  background-color: #fff;
   display: block;
   margin: 5px 0;
   position: relative;
@@ -419,6 +421,9 @@ footer {
   .hizmet-kutu img, .yorum-item {
     width: 100%;
   }
+  .navbar .navbar-nav a {
+    color: #111;
+  }
   .yorumlar-konteyner {
     flex-direction: column;
   }
@@ -478,7 +483,7 @@ footer {
     width: 60px;
   }
   .navbar ul li, .navbar ul li a{
-    color: #111;
+    color: #fff;
   }
   .img-about {
     width: 100% !important;
@@ -822,11 +827,11 @@ nav ul li:hover a {
 }
 
 .header {
-  height: 100px;
+  position: absolute;
   width: 100%;
   z-index: 1;
-  padding: 25px;
-  background-color: #fffa36;
+  padding: 25px 0;
+  color: #fff;
 }
 .plan h3.price-green {
   font-weight: bold;
